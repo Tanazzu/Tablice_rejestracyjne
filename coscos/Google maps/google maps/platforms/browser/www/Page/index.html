@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="../css/index.css">
+<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css">
+<script type="text/javascript" src="../js/googlemap.js"></script>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    </head>
+    <body onload="init()">
+   
+
+		<p id="demo"> dsads</p>
+    <h1> hej </h1>
+
+
+	<div id="mapa"></div>
+	
+	<script>
+var text = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" }]}';
+
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML =
+obj.employees[1].firstName + " " + obj.employees[1].lastName;
+
+</script>
+    
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCacZly7CzbUx4Jq2dN6MKHAamEomXoSgg&callback=initMap"
+    async defer></script>
+    </body>
+</html>
