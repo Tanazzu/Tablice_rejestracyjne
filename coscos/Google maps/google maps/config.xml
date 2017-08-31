@@ -4,8 +4,6 @@
     id          = "com.phonegap.example"
     versionCode = "10"
     version     = "1.0.0" >
-
-    <icon src="./www.img/icon.png" />
     <name>Rejestracje</name>
     <description>
         Aplikacja służaca do wyszukiwania rejestracji.
