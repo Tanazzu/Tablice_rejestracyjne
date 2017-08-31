@@ -5,11 +5,10 @@
     <description>
         Aplikacja służaca do wyszukiwania rejestracji.
     </description>
-    <author email="dariuszpaastwa@gmail.com", "kubakalbarczyk112@gmail.com">
+    <author email="dariuszpaastwa@gmail.com">
         Dariusz Pastwa and Jakub Kalbarczyk
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
     <plugin name="cordova-plugin-camera" spec="~2.4.1" />
 </widget>
