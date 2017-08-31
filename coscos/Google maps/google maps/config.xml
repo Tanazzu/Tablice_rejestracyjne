@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns   = "http://www.w3.org/ns/widgets"
-    xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.phonegap.example"
-    versionCode = "10"
-    version     = "1.0.0" >
-    <name>Rejestracje</name>
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>google maps</name>
     <description>
-        Aplikacja służaca do wyszukiwania rejestracji.
+        A blank PhoneGap app.
     </description>
-    <author email="dariuszpaastwa@gmail.com">
-        Dariusz Pastwa and Jakub Kalbarczyk
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
     </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
     <plugin name="cordova-plugin-camera" spec="~2.4.1" />
 </widget>
